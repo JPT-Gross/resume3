@@ -1,6 +1,7 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* 
+    http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
 */
 
 *,
@@ -164,4 +165,37 @@ header h2 {
     font-size: 24px;
     padding: 40px 0 20px 0;
     text-align: right;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+}
+
+nav a {
+    color: white;
+    padding: 14px 16px;
+    background-color: #111f5a;
+    text-decoration: none;
+}
+
+nav a.active {
+    background-color: #f09600;
+    color: #111f5a;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+header,
+nav,
+article,
+footer {
+    padding: 0 15% 0 15%;
+}
+
+article {
+    background-color: white;
 }
