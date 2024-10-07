@@ -198,4 +198,18 @@ footer {
 
 article {
     background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article h1 {
+    font-size: 54px;
+    color: #f09600;
+    border-bottom: 2px solid #f09600;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+article p {
+    font-size: 14pt;
 }
