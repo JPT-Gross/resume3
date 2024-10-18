@@ -145,6 +145,9 @@ End CSS Reset
 
 body {
     background-color: #1f38a8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
@@ -212,4 +215,26 @@ article h1 {
 
 article p {
     font-size: 14pt;
+}
+
+footer {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+}
+
+footer a.active {
+    color: #f09600;
+}
+
+footer a:hover {
+    color: black;
 }
